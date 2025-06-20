@@ -1,0 +1,23 @@
+// File: check_voting_eligibility.cpp
+// Description: Program to check whether a person is eligible to vote based on age.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+
+    // Input age from user
+    cout << "Enter your age = ";
+    cin >> age;
+
+    // Check voting eligibility
+    if (age >= 18) {
+        cout << "You are eligible to vote." << endl;
+    } else {
+        cout << "Sorry! You are not eligible to vote." << endl;
+    }
+
+    return 0;
+}
