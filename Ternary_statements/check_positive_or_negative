@@ -1,0 +1,19 @@
+// File: check_positive_or_negative.cpp
+// Description: Program to check whether a number is positive or negative using a ternary operator.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    // Input number from user
+    cout << "Enter number = ";
+    cin >> n;
+
+    // Check using ternary operator
+    cout << (n >= 0 ? "Positive Number" : "Negative Number") << endl;
+
+    return 0;
+}
