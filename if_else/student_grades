@@ -1,0 +1,27 @@
+// File: student_grade.cpp
+// Description: Program to print student grade based on marks using if-else conditions.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int marks;
+
+    // Input marks from user
+    cout << "Enter your marks = ";
+    cin >> marks;
+
+    // Grade classification
+    if (marks >= 90) {
+        cout << "Grade: A" << endl;
+    } else if (marks >= 80) {
+        cout << "Grade: B" << endl;
+    } else if (marks >= 70) {
+        cout << "Grade: C" << endl;
+    } else {
+        cout << "Grade: D" << endl;
+    }
+
+    return 0;
+}
