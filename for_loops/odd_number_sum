@@ -1,0 +1,28 @@
+// File: odd_numbers_sum.cpp
+// Description: Program to print all odd numbers from 1 to n and calculate their sum.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n, sum = 0;
+
+    // Input the upper limit
+    cout << "Enter number = ";
+    cin >> n;
+
+    // Print odd numbers and calculate their sum
+    cout << "Odd numbers: ";
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 != 0) {
+            cout << i << " ";
+            sum += i;
+        }
+    }
+
+    // Print the sum
+    cout << "\nSum of odd numbers = " << sum << endl;
+
+    return 0;
+}
