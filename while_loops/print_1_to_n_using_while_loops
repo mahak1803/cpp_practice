@@ -1,0 +1,22 @@
+// File: print_1_to_n_using_while.cpp
+// Description: Program to print numbers from 1 to n using a while loop.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n, count = 1;
+
+    // Input the upper limit
+    cout << "Enter the number till you want to print = ";
+    cin >> n;
+
+    // Print numbers from 1 to n using while loop
+    while (count <= n) {
+        cout << count << endl;
+        count++;
+    }
+
+    return 0;
+}
