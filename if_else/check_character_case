@@ -1,0 +1,25 @@
+// File: check_character_case.cpp
+// Description: Program to check whether the input character is uppercase, lowercase, or not a letter.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char ch;
+
+    // Input character from user
+    cout << "Enter a character = ";
+    cin >> ch;
+
+    // Check and print character case
+    if (isupper(ch)) {
+        cout << "Uppercase character";
+    } else if (islower(ch)) {
+        cout << "Lowercase character";
+    } else {
+        cout << "Not a valid alphabet character";
+    }
+
+    return 0;
+}
