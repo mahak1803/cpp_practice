@@ -1,0 +1,26 @@
+// File: sum_divisible_by_3.cpp
+// Description: Program to calculate the sum of all numbers from 1 to n that are divisible by 3.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n, sum = 0;
+
+    // Input the ending number
+    cout << "Enter the ending number = ";
+    cin >> n;
+
+    // Loop from 1 to n and add only numbers divisible by 3
+    for (int i = 1; i <= n; i++) {
+        if (i % 3 == 0) {
+            sum += i;
+        }
+    }
+
+    // Output the result
+    cout << "Sum of numbers divisible by 3 = " << sum << endl;
+
+    return 0;
+}
