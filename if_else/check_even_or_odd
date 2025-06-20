@@ -1,0 +1,23 @@
+// File: check_even_or_odd.cpp
+// Description: Program to check whether a number is even or odd using if-else.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    // Input a number from user
+    cout << "Enter a number = ";
+    cin >> n;
+
+    // Check even or odd
+    if (n % 2 == 0) {
+        cout << "It is an even number." << endl;
+    } else {
+        cout << "It is an odd number." << endl;
+    }
+
+    return 0;
+}
