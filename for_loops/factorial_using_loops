@@ -1,0 +1,24 @@
+// File: factorial_using_loop.cpp
+// Description: Program to calculate the factorial of a number using a for loop.
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n, fact = 1;
+
+    // Take input from user
+    cout << "Enter the number = ";
+    cin >> n;
+
+    // Calculate factorial using for loop
+    for (int i = 1; i <= n; i++) {
+        fact *= i;
+    }
+
+    // Output the factorial
+    cout << "Factorial of " << n << " is " << fact << endl;
+
+    return 0;
+}
