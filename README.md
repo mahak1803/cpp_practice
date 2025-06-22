@@ -1,26 +1,16 @@
-# Cpp-Practice
+# C++ Practice Programs
 
-This repository contains beginner-level C++ programs written during Lecture 2 as part of my programming journey. These cover core concepts like:
+This repository contains my practice work in C++ programming, focusing on building a strong foundation in core concepts.
 
-- While loops
-- Do-while loops
-- If-else and nested if
-- Ternary operator
-- Nested loops and pattern printing
-- Prime number logic
-- Factorial and mathematical problems
+Topics include:
+- Loops
+- Conditionals
+- Functions
+- Arrays
+- Patterns
+- Basic logic building
 
-## 🔖 Topics Covered
-- ✅ Printing numbers
-- ✅ Sum of `n` numbers
-- ✅ Checking upper/lower case
-- ✅ Voting age check
-- ✅ Prime number
-- ✅ Factorial
-- ✅ Break 
-- ✅ Ternary operator
-
----
+The goal is to improve problem-solving skills through consistent hands-on practice. All programs are organized for clarity and continuous learning.
 
 ## 👩‍💻 Maintained by:
 **Mahak Saini**  
