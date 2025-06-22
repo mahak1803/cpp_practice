@@ -1,0 +1,27 @@
+// File: number_square_pattern.cpp
+// Description: Prints a square pattern of numbers from 1 to n
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int size;
+
+    // Input the size of the square pattern
+    cout << "Enter the size of the pattern = ";
+    cin >> size;
+
+    // Outer loop for rows
+    for (int row = 1; row <= size; row++)
+    {
+        // Inner loop for columns
+        for (int col = 1; col <= size; col++)
+        {
+            cout << col << " ";
+        }
+        cout << endl; // Move to next line after each row
+    }
+
+    return 0;
+}
